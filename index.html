@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="./script.js""></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh Hutcherson</title>
+</head>
+<h3>Josh Hutcherson Fan page</h3>
+<body>
+    <audio id="myAudio">
+        <source src="./static/whistle.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      
+      <h3><p>Click to play Josh Hutcherson Whistle.</p></h3>
+      
+      <div><button onclick="playAudio()" type="button">Play Audio</button>
+      <button onclick="pauseAudio()" type="button">Pause Audio</button> </div>
+      
+      <script>
+      var x = document.getElementById("myAudio"); 
+      
+      function playAudio() { 
+        x.play(); 
+      } 
+      
+      function pauseAudio() { 
+        x.pause(); 
+      } 
+      </script>
+      <div id="vid"> <p id="video"><video width="450" height="450" controls>
+          <source src="./static/m3.mp4" type="video/mp4"></video>
+          <p id="video"><video width="450" height="450" controls>
+              <source src="./static/m2.mp4" type="video/mp4"></video>
+              <p id="video"><video width="450" height="450" controls>
+                 <source src="./static/m5.mp4" type="video/mp4"></video></div>
+                 <div id="vid2"><p id="video"><video width="450" height="450" controls>
+                    <source src="./static/m1.mp4" type="video/mp4"></video>
+                    <p id="video"><video width="450" height="450" controls>
+                        <source src="./static/m4.mp4" type="video/mp4"></video>
+                 
+</html>
