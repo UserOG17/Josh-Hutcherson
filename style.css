@@ -19,6 +19,8 @@ h3 {
 }  
 body{
     background-image: url(./static/j1.PNG);
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
 p{
     font-size:large
